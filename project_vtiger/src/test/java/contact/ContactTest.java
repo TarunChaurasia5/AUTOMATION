@@ -33,7 +33,8 @@ public class ContactTest extends Basic {
 
         // Navigate to Contacts module
         hp.getContactLink().click();
-
+//
+        
         // Click on Create Contact icon
         driver.findElement(By.cssSelector("img[alt='Create Contact...']")).click();
 
