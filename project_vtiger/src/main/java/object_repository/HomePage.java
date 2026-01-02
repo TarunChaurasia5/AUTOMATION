@@ -45,6 +45,9 @@ public class HomePage {
 	
 	@FindBy(linkText = "Products")
 	private WebElement Productslink;
+	
+	@FindBy(linkText = "Opportunities")
+	private WebElement opportuntieslink;
 
 	public WebElement getContactLink() {
 		return contactLink;
@@ -68,6 +71,10 @@ public class HomePage {
 	
 	public WebElement getProductslink() {
 		return Productslink;
+	}
+	
+	public WebElement getOpportuntieslink() {
+		return opportuntieslink;
 	}
 	
 	
